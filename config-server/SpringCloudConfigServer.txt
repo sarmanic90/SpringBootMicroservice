@@ -1,0 +1,14 @@
+Spring Cloud Config Server
+---------------------------
+ - Spring cloud config server is a central place to manage your application configurations across all environments (dev, qa, prod).
+ - Instead of putting application.properties inside your app,
+    - you keep configs in one remote place (like git repo)
+    - all apps will connect to config server and fetch config at runtime
+ - When you update config in Git, all your service can get new config without redeploy!
+
+ KEY FEATURES
+ -------------
+ 1.Centralized config = one place for all
+ 2.Easy updates       = change in git -> all apps get update without redeploy
+ 3.Secure secrete     = Store sensitive data separately
+ 4.Environment specific = Separate dev, qa, prod config
