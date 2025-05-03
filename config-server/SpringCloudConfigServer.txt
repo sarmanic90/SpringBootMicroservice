@@ -12,3 +12,14 @@ Spring Cloud Config Server
  2.Easy updates       = change in git -> all apps get update without redeploy
  3.Secure secrete     = Store sensitive data separately
  4.Environment specific = Separate dev, qa, prod config
+
+Run and Check config server
+----------------------------
+
+URL
+---
+http://localhost:8888/client-app/profile-name
+
+Example
+-------
+http://localhost:8888/order-service/prod
